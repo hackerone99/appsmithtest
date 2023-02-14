@@ -3,12 +3,20 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#F5D1D1",
+  "icon": "product",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
