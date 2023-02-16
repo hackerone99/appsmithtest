@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  return \"<h1>123</h1>\";\n}",
+      "body": "() => {\n  const asd = true;\n  return asd;\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -35,7 +35,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  return \"<h1>123</h1>\";\n}"
+      "() => {\n  const asd = true;\n  return asd;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
