@@ -1,19 +1,11 @@
 {
   "pages": [
     {
-      "id": "Bugs and Issues",
-      "isDefault": false
-    },
-    {
-      "id": "Page3 test",
-      "isDefault": false
-    },
-    {
-      "id": "Page1",
+      "id": "Page3",
       "isDefault": true
     },
     {
-      "id": "Page2",
+      "id": "Page4",
       "isDefault": false
     }
   ],
@@ -23,7 +15,7 @@
   "color": "#FFDEDE",
   "icon": "alien",
   "unpublishedAppLayout": {
-    "type": "TABLET_LARGE"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "TABLET_LARGE"

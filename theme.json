@@ -1,10 +1,10 @@
 {
-  "name": "Default",
-  "displayName": "Modern",
+  "name": "Sharp",
+  "displayName": "Moon",
   "config": {
     "colors": {
-      "primaryColor": "#553DE9",
-      "backgroundColor": "#F8FAFC"
+      "primaryColor": "#64748b",
+      "backgroundColor": "#f8fafc"
     },
     "borderRadius": {
       "appBorderRadius": {
@@ -38,11 +38,11 @@
   },
   "properties": {
     "colors": {
-      "primaryColor": "#dc2626",
-      "backgroundColor": "#a5b4fc"
+      "primaryColor": "#a5b4fc",
+      "backgroundColor": "url('https://halp.moh.gov.sg//web/themes/fe/img/prelogin-masthead-banner.jpg')"
     },
     "borderRadius": {
-      "appBorderRadius": "1.5rem"
+      "appBorderRadius": "0px"
     },
     "boxShadow": {
       "appBoxShadow": "none"
