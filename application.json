@@ -1,11 +1,27 @@
 {
   "pages": [
     {
-      "id": "Page3",
+      "id": "Home",
       "isDefault": true
     },
     {
-      "id": "Page4",
+      "id": "Business",
+      "isDefault": false
+    },
+    {
+      "id": "SingPass",
+      "isDefault": false
+    },
+    {
+      "id": "Corppass form",
+      "isDefault": false
+    },
+    {
+      "id": "Singpass form",
+      "isDefault": false
+    },
+    {
+      "id": "Dashboard",
       "isDefault": false
     }
   ],
