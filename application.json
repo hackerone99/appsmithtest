@@ -23,6 +23,18 @@
     {
       "id": "Dashboard",
       "isDefault": false
+    },
+    {
+      "id": "Apply Licence",
+      "isDefault": false
+    },
+    {
+      "id": "Apply Licence-Step2",
+      "isDefault": false
+    },
+    {
+      "id": "Apply Licence-Step3",
+      "isDefault": false
     }
   ],
   "viewMode": false,

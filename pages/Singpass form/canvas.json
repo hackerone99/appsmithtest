@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1210,
+          "bottomRow": 1290,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
@@ -105,10 +105,10 @@
                       "parentId": "onb8uccp1y",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 108,
+                      "originalTopRow": 101,
                       "disabledWhenInvalid": false,
                       "borderRadius": "3.5rem",
-                      "originalBottomRow": 114,
+                      "originalBottomRow": 107,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -1217,6 +1217,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
+                      "onClick": "{{navigateTo('Dashboard', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "#f2b227",
                       "dynamicPropertyPathList": [
                         {
@@ -1234,7 +1235,11 @@
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 43,
                       "dynamicBindingPathList": [],
                       "text": "SUBMIT",
@@ -1485,7 +1490,7 @@
                                 "label"
                               ],
                               "topRow": 1,
-                              "bottomRow": 10,
+                              "bottomRow": 8,
                               "parentRowSpace": 10,
                               "type": "TEXT_WIDGET",
                               "hideCard": false,
@@ -1525,63 +1530,46 @@
                               "originalTopRow": 1,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
-                              "originalBottomRow": 10,
+                              "originalBottomRow": 8,
                               "fontSize": "1rem",
                               "minDynamicHeight": 4
                             },
                             {
-                              "widgetName": "Text4",
-                              "displayName": "Text",
-                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                              "searchTags": [
-                                "typography",
-                                "paragraph",
-                                "label"
-                              ],
+                              "boxShadow": "none",
+                              "widgetName": "Image1",
+                              "displayName": "Image",
+                              "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
                               "topRow": 1,
-                              "bottomRow": 5,
+                              "bottomRow": 8,
                               "parentRowSpace": 10,
-                              "type": "TEXT_WIDGET",
+                              "type": "IMAGE_WIDGET",
                               "hideCard": false,
                               "animateLoading": true,
-                              "overflow": "NONE",
-                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                              "parentColumnSpace": 12.7783203125,
+                              "parentColumnSpace": 16.9033203125,
                               "dynamicTriggerPathList": [],
-                              "leftColumn": 53,
+                              "imageShape": "RECTANGLE",
+                              "leftColumn": 51,
                               "dynamicBindingPathList": [
-                                {
-                                  "key": "truncateButtonColor"
-                                },
-                                {
-                                  "key": "fontFamily"
-                                },
                                 {
                                   "key": "borderRadius"
                                 }
                               ],
-                              "shouldTruncate": false,
-                              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "text": "<img src=\"https://halp.moh.gov.sg/web/themes/fe/img/MyinfoBtn.png\" alt=\"Ministry of Health\">",
-                              "key": "ukptlb9w5s",
+                              "defaultImage": "https://halp.moh.gov.sg/web/themes/fe/img/MyinfoBtn.png",
+                              "key": "lzevqejj3v",
+                              "image": "",
                               "isDeprecated": false,
-                              "rightColumn": 60,
-                              "textAlign": "LEFT",
-                              "dynamicHeight": "AUTO_HEIGHT",
-                              "widgetId": "p930fsgdfu",
+                              "rightColumn": 62,
+                              "objectFit": "contain",
+                              "widgetId": "kdph4ft3b0",
                               "isVisible": true,
-                              "fontStyle": "",
-                              "textColor": "#231F20",
                               "version": 1,
                               "parentId": "srtcy6dfo8",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "originalTopRow": 1,
+                              "maxZoomLevel": 1,
+                              "enableDownload": false,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "maxDynamicHeight": 9000,
-                              "originalBottomRow": 5,
-                              "fontSize": "1rem",
-                              "minDynamicHeight": 4
+                              "enableRotation": false
                             }
                           ],
                           "key": "no8j7e57w8",
