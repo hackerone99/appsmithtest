@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
+          "version": 77,
           "minHeight": 560,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -1064,6 +1064,7 @@
                               },
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "originalBottomRow": 22,
+                              "columnUpdatedAt": 1679362115643,
                               "defaultSelectedRowIndices": "[\n  0\n]",
                               "widgetName": "Table2",
                               "defaultPageSize": 0,
@@ -1115,7 +1116,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Type\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 },
                                 "Ref__No_": {
                                   "allowCellWrapping": false,
@@ -1143,7 +1145,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Ref. No.\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 },
                                 "Subject": {
                                   "allowCellWrapping": false,
@@ -1171,7 +1174,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Subject\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 },
                                 "Service": {
                                   "allowCellWrapping": false,
@@ -1199,7 +1203,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Service\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 },
                                 "Date": {
                                   "allowCellWrapping": false,
@@ -1227,10 +1232,12 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Date\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 }
                               },
                               "key": "9ougk9w649",
+                              "canFreezeColumn": false,
                               "isDeprecated": false,
                               "rightColumn": 64,
                               "textSize": "0.875rem",
@@ -2004,6 +2011,7 @@
                               },
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "originalBottomRow": 37,
+                              "columnUpdatedAt": 1679362115643,
                               "defaultSelectedRowIndices": "[\n  0\n]",
                               "widgetName": "Table2Copy",
                               "defaultPageSize": 0,
@@ -2056,7 +2064,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table2Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Type\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 },
                                 "Ref__No_": {
                                   "allowCellWrapping": false,
@@ -2084,7 +2093,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table2Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Ref. No.\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 },
                                 "Subject": {
                                   "allowCellWrapping": false,
@@ -2112,7 +2122,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table2Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Subject\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 },
                                 "Service": {
                                   "allowCellWrapping": false,
@@ -2140,7 +2151,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table2Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Service\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 },
                                 "Date": {
                                   "allowCellWrapping": false,
@@ -2168,7 +2180,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table2Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Date\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 },
                                 "customColumn1": {
                                   "allowCellWrapping": false,
@@ -2195,10 +2208,12 @@
                                   "computedValue": "",
                                   "validation": {},
                                   "buttonStyle": "rgb(3, 179, 101)",
-                                  "labelColor": "#FFFFFF"
+                                  "labelColor": "#FFFFFF",
+                                  "sticky": ""
                                 }
                               },
                               "key": "9ougk9w649",
+                              "canFreezeColumn": false,
                               "isDeprecated": false,
                               "rightColumn": 63,
                               "textSize": "0.875rem",
@@ -3010,6 +3025,7 @@
                               },
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "originalBottomRow": 49,
+                              "columnUpdatedAt": 1679362115643,
                               "defaultSelectedRowIndices": [
                                 0
                               ],
@@ -3069,7 +3085,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Licence No.\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 },
                                 "Type": {
                                   "allowCellWrapping": false,
@@ -3097,7 +3114,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Type\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 },
                                 "Status": {
                                   "allowCellWrapping": false,
@@ -3125,7 +3143,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Status\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 },
                                 "Mode_of_Service_Delivery": {
                                   "allowCellWrapping": false,
@@ -3153,7 +3172,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Mode of Service Delivery\"]))}}",
                                   "validation": {},
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "sticky": ""
                                 },
                                 "customColumn1": {
                                   "allowCellWrapping": false,
@@ -3180,7 +3200,8 @@
                                   "computedValue": "",
                                   "validation": {},
                                   "buttonStyle": "rgb(3, 179, 101)",
-                                  "labelColor": "#FFFFFF"
+                                  "labelColor": "#FFFFFF",
+                                  "sticky": ""
                                 },
                                 "customColumn2": {
                                   "allowCellWrapping": false,
@@ -3207,10 +3228,12 @@
                                   "computedValue": "",
                                   "validation": {},
                                   "buttonStyle": "rgb(3, 179, 101)",
-                                  "labelColor": "#FFFFFF"
+                                  "labelColor": "#FFFFFF",
+                                  "sticky": ""
                                 }
                               },
                               "key": "xuqpgvqhf9",
+                              "canFreezeColumn": false,
                               "isDeprecated": false,
                               "rightColumn": 63,
                               "textSize": "0.875rem",

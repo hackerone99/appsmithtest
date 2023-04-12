@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 540,
+          "bottomRow": 520,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
+          "version": 77,
           "minHeight": 620,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -148,7 +148,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Button1",
-              "onClick": "{{navigateTo('Corppass form', {}, 'SAME_WINDOW')}}",
+              "onClick": "{{navigateTo('Corppass form',storeValue('email',input1.text),input1.text),input1.text),input1.text), 'SAME_WINDOW')}}",
               "buttonColor": "#f2b227",
               "dynamicPropertyPathList": [
                 {
@@ -207,7 +207,7 @@
                 "label"
               ],
               "topRow": 47,
-              "bottomRow": 54,
+              "bottomRow": 52,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,

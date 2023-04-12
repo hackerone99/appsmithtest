@@ -1,0 +1,32 @@
+{
+  "unpublishedCollection": {
+    "name": "API",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "ENV",
+        "value": "window.location.hostname === \"app.appsmith.com\" ? 'https://production-api' : 'https://uat-api'"
+      },
+      {
+        "name": "SINGPASS_URL",
+        "value": "window.location.hostname === \"app.appsmith.com\" ? 'https://production-singpass' : 'https://uat-singpass'"
+      },
+      {
+        "name": "HOME",
+        "value": "API.ENV + '/home'"
+      },
+      {
+        "name": "SUBSCRIPTIONS",
+        "value": "API.ENV + '/subscriptions'"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Home_API",
+  "deleted": false,
+  "gitSyncId": "63eaed6d291ab5434833e356_640ed94110160d57aa71657c"
+}
